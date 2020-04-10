@@ -104,7 +104,7 @@ module.exports = {
   devServer: {
     proxy: {
       '^/api': {
-        target: 'https://traq-dev.tokyotech.org',
+        //target: 'https://traq-dev.tokyotech.org'
         changeOrigin: true,
         agent: keepAliveAgent
       }
